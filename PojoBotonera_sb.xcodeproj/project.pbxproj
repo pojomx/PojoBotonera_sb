@@ -21,34 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1434C702867AA600027F08D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 377DAA691DCDE40200009697;
-			remoteInfo = "SwiftSocket iOS";
-		};
-		A1434C722867AA600027F08D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 377DAA761DCDE45D00009697;
-			remoteInfo = "SwiftSocket macOS";
-		};
-		A1434C742867AA600027F08D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 37454ECA1E06158200800AE5;
-			remoteInfo = "SwiftSocket tvOS";
-		};
-		A1434C762867AA600027F08D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 375C482D1DDC4C56008C701D;
-			remoteInfo = "iOS Example";
-		};
 		A17D95BF286689F70088C379 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A17D95A0286689F30088C379 /* Project object */;
@@ -66,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSocket.xcodeproj; path = "../../../../Downloads/SwiftSocket-master/SwiftSocket.xcodeproj"; sourceTree = "<group>"; };
 		A1434C972867DE780027F08D /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		A1434C9A2868DE6D0027F08D /* Botonera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botonera.swift; sourceTree = "<group>"; };
 		A17D95A8286689F30088C379 /* PojoBotonera_sb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PojoBotonera_sb.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,17 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1434C6A2867AA600027F08D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1434C712867AA600027F08D /* SwiftSocket.framework */,
-				A1434C732867AA600027F08D /* SwiftSocket.framework */,
-				A1434C752867AA600027F08D /* SwiftSocket.framework */,
-				A1434C772867AA600027F08D /* iOS Example.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		A1434C872867AA850027F08D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +135,6 @@
 		A17D95CB286689F70088C379 /* PojoBotonera_sbUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */,
 				A17D95CC286689F70088C379 /* PojoBotonera_sbUITests.swift */,
 				A17D95CE286689F70088C379 /* PojoBotonera_sbUITestsLaunchTests.swift */,
 			);
@@ -277,12 +236,6 @@
 			);
 			productRefGroup = A17D95A9286689F30088C379 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A1434C6A2867AA600027F08D /* Products */;
-					ProjectRef = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				A17D95A7286689F30088C379 /* PojoBotonera_sb */,
@@ -291,37 +244,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A1434C712867AA600027F08D /* SwiftSocket.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftSocket.framework;
-			remoteRef = A1434C702867AA600027F08D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A1434C732867AA600027F08D /* SwiftSocket.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftSocket.framework;
-			remoteRef = A1434C722867AA600027F08D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A1434C752867AA600027F08D /* SwiftSocket.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftSocket.framework;
-			remoteRef = A1434C742867AA600027F08D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		A1434C772867AA600027F08D /* iOS Example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "iOS Example.app";
-			remoteRef = A1434C762867AA600027F08D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A17D95A6286689F30088C379 /* Resources */ = {
