@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1434C982867DE780027F08D /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1434C972867DE780027F08D /* ChatRoom.swift */; };
+		A1434C9B2868DE6D0027F08D /* Botonera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1434C9A2868DE6D0027F08D /* Botonera.swift */; };
+		A17D95AC286689F30088C379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D95AB286689F30088C379 /* AppDelegate.swift */; };
+		A17D95AE286689F30088C379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D95AD286689F30088C379 /* SceneDelegate.swift */; };
+		A17D95B0286689F30088C379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D95AF286689F30088C379 /* ViewController.swift */; };
+		A17D95B3286689F30088C379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17D95B1286689F30088C379 /* Main.storyboard */; };
+		A17D95B5286689F60088C379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17D95B4286689F60088C379 /* Assets.xcassets */; };
+		A17D95B8286689F60088C379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17D95B6286689F60088C379 /* LaunchScreen.storyboard */; };
+		A17D95C3286689F70088C379 /* PojoBotonera_sbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D95C2286689F70088C379 /* PojoBotonera_sbTests.swift */; };
+		A17D95CD286689F70088C379 /* PojoBotonera_sbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D95CC286689F70088C379 /* PojoBotonera_sbUITests.swift */; };
+		A17D95CF286689F70088C379 /* PojoBotonera_sbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D95CE286689F70088C379 /* PojoBotonera_sbUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1434C702867AA600027F08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 377DAA691DCDE40200009697;
+			remoteInfo = "SwiftSocket iOS";
+		};
+		A1434C722867AA600027F08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 377DAA761DCDE45D00009697;
+			remoteInfo = "SwiftSocket macOS";
+		};
+		A1434C742867AA600027F08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37454ECA1E06158200800AE5;
+			remoteInfo = "SwiftSocket tvOS";
+		};
+		A1434C762867AA600027F08D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 375C482D1DDC4C56008C701D;
+			remoteInfo = "iOS Example";
+		};
+		A17D95BF286689F70088C379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17D95A0286689F30088C379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17D95A7286689F30088C379;
+			remoteInfo = PojoBotonera_sb;
+		};
+		A17D95C9286689F70088C379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17D95A0286689F30088C379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17D95A7286689F30088C379;
+			remoteInfo = PojoBotonera_sb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSocket.xcodeproj; path = "../../../../Downloads/SwiftSocket-master/SwiftSocket.xcodeproj"; sourceTree = "<group>"; };
+		A1434C972867DE780027F08D /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		A1434C9A2868DE6D0027F08D /* Botonera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botonera.swift; sourceTree = "<group>"; };
+		A17D95A8286689F30088C379 /* PojoBotonera_sb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PojoBotonera_sb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17D95AB286689F30088C379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A17D95AD286689F30088C379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A17D95AF286689F30088C379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A17D95B2286689F30088C379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17D95B4286689F60088C379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17D95B7286689F60088C379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A17D95B9286689F60088C379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17D95BE286689F70088C379 /* PojoBotonera_sbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PojoBotonera_sbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17D95C2286689F70088C379 /* PojoBotonera_sbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PojoBotonera_sbTests.swift; sourceTree = "<group>"; };
+		A17D95C8286689F70088C379 /* PojoBotonera_sbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PojoBotonera_sbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17D95CC286689F70088C379 /* PojoBotonera_sbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PojoBotonera_sbUITests.swift; sourceTree = "<group>"; };
+		A17D95CE286689F70088C379 /* PojoBotonera_sbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PojoBotonera_sbUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17D95A5286689F30088C379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D95BB286689F70088C379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D95C5286689F70088C379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1434C6A2867AA600027F08D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1434C712867AA600027F08D /* SwiftSocket.framework */,
+				A1434C732867AA600027F08D /* SwiftSocket.framework */,
+				A1434C752867AA600027F08D /* SwiftSocket.framework */,
+				A1434C772867AA600027F08D /* iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1434C872867AA850027F08D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A17D959F286689F30088C379 = {
+			isa = PBXGroup;
+			children = (
+				A17D95AA286689F30088C379 /* PojoBotonera_sb */,
+				A17D95C1286689F70088C379 /* PojoBotonera_sbTests */,
+				A17D95CB286689F70088C379 /* PojoBotonera_sbUITests */,
+				A17D95A9286689F30088C379 /* Products */,
+				A1434C872867AA850027F08D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A17D95A9286689F30088C379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17D95A8286689F30088C379 /* PojoBotonera_sb.app */,
+				A17D95BE286689F70088C379 /* PojoBotonera_sbTests.xctest */,
+				A17D95C8286689F70088C379 /* PojoBotonera_sbUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17D95AA286689F30088C379 /* PojoBotonera_sb */ = {
+			isa = PBXGroup;
+			children = (
+				A1434C972867DE780027F08D /* ChatRoom.swift */,
+				A17D95AB286689F30088C379 /* AppDelegate.swift */,
+				A17D95AD286689F30088C379 /* SceneDelegate.swift */,
+				A17D95AF286689F30088C379 /* ViewController.swift */,
+				A17D95B1286689F30088C379 /* Main.storyboard */,
+				A17D95B4286689F60088C379 /* Assets.xcassets */,
+				A17D95B6286689F60088C379 /* LaunchScreen.storyboard */,
+				A17D95B9286689F60088C379 /* Info.plist */,
+				A1434C9A2868DE6D0027F08D /* Botonera.swift */,
+			);
+			path = PojoBotonera_sb;
+			sourceTree = "<group>";
+		};
+		A17D95C1286689F70088C379 /* PojoBotonera_sbTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17D95C2286689F70088C379 /* PojoBotonera_sbTests.swift */,
+			);
+			path = PojoBotonera_sbTests;
+			sourceTree = "<group>";
+		};
+		A17D95CB286689F70088C379 /* PojoBotonera_sbUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */,
+				A17D95CC286689F70088C379 /* PojoBotonera_sbUITests.swift */,
+				A17D95CE286689F70088C379 /* PojoBotonera_sbUITestsLaunchTests.swift */,
+			);
+			path = PojoBotonera_sbUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17D95A7286689F30088C379 /* PojoBotonera_sb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17D95D2286689F70088C379 /* Build configuration list for PBXNativeTarget "PojoBotonera_sb" */;
+			buildPhases = (
+				A17D95A4286689F30088C379 /* Sources */,
+				A17D95A5286689F30088C379 /* Frameworks */,
+				A17D95A6286689F30088C379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PojoBotonera_sb;
+			packageProductDependencies = (
+			);
+			productName = PojoBotonera_sb;
+			productReference = A17D95A8286689F30088C379 /* PojoBotonera_sb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17D95BD286689F70088C379 /* PojoBotonera_sbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17D95D5286689F70088C379 /* Build configuration list for PBXNativeTarget "PojoBotonera_sbTests" */;
+			buildPhases = (
+				A17D95BA286689F70088C379 /* Sources */,
+				A17D95BB286689F70088C379 /* Frameworks */,
+				A17D95BC286689F70088C379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17D95C0286689F70088C379 /* PBXTargetDependency */,
+			);
+			name = PojoBotonera_sbTests;
+			productName = PojoBotonera_sbTests;
+			productReference = A17D95BE286689F70088C379 /* PojoBotonera_sbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A17D95C7286689F70088C379 /* PojoBotonera_sbUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17D95D8286689F70088C379 /* Build configuration list for PBXNativeTarget "PojoBotonera_sbUITests" */;
+			buildPhases = (
+				A17D95C4286689F70088C379 /* Sources */,
+				A17D95C5286689F70088C379 /* Frameworks */,
+				A17D95C6286689F70088C379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17D95CA286689F70088C379 /* PBXTargetDependency */,
+			);
+			name = PojoBotonera_sbUITests;
+			productName = PojoBotonera_sbUITests;
+			productReference = A17D95C8286689F70088C379 /* PojoBotonera_sbUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17D95A0286689F30088C379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A17D95A7286689F30088C379 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					A17D95BD286689F70088C379 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A17D95A7286689F30088C379;
+					};
+					A17D95C7286689F70088C379 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A17D95A7286689F30088C379;
+					};
+				};
+			};
+			buildConfigurationList = A17D95A3286689F30088C379 /* Build configuration list for PBXProject "PojoBotonera_sb" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17D959F286689F30088C379;
+			packageReferences = (
+			);
+			productRefGroup = A17D95A9286689F30088C379 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A1434C6A2867AA600027F08D /* Products */;
+					ProjectRef = A1434C692867AA600027F08D /* SwiftSocket.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A17D95A7286689F30088C379 /* PojoBotonera_sb */,
+				A17D95BD286689F70088C379 /* PojoBotonera_sbTests */,
+				A17D95C7286689F70088C379 /* PojoBotonera_sbUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A1434C712867AA600027F08D /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = A1434C702867AA600027F08D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1434C732867AA600027F08D /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = A1434C722867AA600027F08D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1434C752867AA600027F08D /* SwiftSocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSocket.framework;
+			remoteRef = A1434C742867AA600027F08D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1434C772867AA600027F08D /* iOS Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iOS Example.app";
+			remoteRef = A1434C762867AA600027F08D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17D95A6286689F30088C379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17D95B8286689F60088C379 /* LaunchScreen.storyboard in Resources */,
+				A17D95B5286689F60088C379 /* Assets.xcassets in Resources */,
+				A17D95B3286689F30088C379 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D95BC286689F70088C379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D95C6286689F70088C379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17D95A4286689F30088C379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17D95B0286689F30088C379 /* ViewController.swift in Sources */,
+				A1434C982867DE780027F08D /* ChatRoom.swift in Sources */,
+				A1434C9B2868DE6D0027F08D /* Botonera.swift in Sources */,
+				A17D95AC286689F30088C379 /* AppDelegate.swift in Sources */,
+				A17D95AE286689F30088C379 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D95BA286689F70088C379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17D95C3286689F70088C379 /* PojoBotonera_sbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17D95C4286689F70088C379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17D95CD286689F70088C379 /* PojoBotonera_sbUITests.swift in Sources */,
+				A17D95CF286689F70088C379 /* PojoBotonera_sbUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17D95C0286689F70088C379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17D95A7286689F30088C379 /* PojoBotonera_sb */;
+			targetProxy = A17D95BF286689F70088C379 /* PBXContainerItemProxy */;
+		};
+		A17D95CA286689F70088C379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17D95A7286689F30088C379 /* PojoBotonera_sb */;
+			targetProxy = A17D95C9286689F70088C379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A17D95B1286689F30088C379 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17D95B2286689F30088C379 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A17D95B6286689F60088C379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17D95B7286689F60088C379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17D95D0286689F70088C379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17D95D1286689F70088C379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17D95D3286689F70088C379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSUG64CF58;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PojoBotonera_sb/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pojoclan.PojoBotonera-sb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "/Users/alanmilke/Downloads/SwiftSocket-master/**";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/alanmilke/Downloads/SwiftSocket-master";
+			};
+			name = Debug;
+		};
+		A17D95D4286689F70088C379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSUG64CF58;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PojoBotonera_sb/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pojoclan.PojoBotonera-sb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "/Users/alanmilke/Downloads/SwiftSocket-master/**";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/alanmilke/Downloads/SwiftSocket-master";
+			};
+			name = Release;
+		};
+		A17D95D6286689F70088C379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSUG64CF58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pojoclan.PojoBotonera-sbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PojoBotonera_sb.app/PojoBotonera_sb";
+			};
+			name = Debug;
+		};
+		A17D95D7286689F70088C379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSUG64CF58;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pojoclan.PojoBotonera-sbTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PojoBotonera_sb.app/PojoBotonera_sb";
+			};
+			name = Release;
+		};
+		A17D95D9286689F70088C379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSUG64CF58;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pojoclan.PojoBotonera-sbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PojoBotonera_sb;
+			};
+			name = Debug;
+		};
+		A17D95DA286689F70088C379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DSUG64CF58;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pojoclan.PojoBotonera-sbUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PojoBotonera_sb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17D95A3286689F30088C379 /* Build configuration list for PBXProject "PojoBotonera_sb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D95D0286689F70088C379 /* Debug */,
+				A17D95D1286689F70088C379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17D95D2286689F70088C379 /* Build configuration list for PBXNativeTarget "PojoBotonera_sb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D95D3286689F70088C379 /* Debug */,
+				A17D95D4286689F70088C379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17D95D5286689F70088C379 /* Build configuration list for PBXNativeTarget "PojoBotonera_sbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D95D6286689F70088C379 /* Debug */,
+				A17D95D7286689F70088C379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17D95D8286689F70088C379 /* Build configuration list for PBXNativeTarget "PojoBotonera_sbUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17D95D9286689F70088C379 /* Debug */,
+				A17D95DA286689F70088C379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17D95A0286689F30088C379 /* Project object */;
+}

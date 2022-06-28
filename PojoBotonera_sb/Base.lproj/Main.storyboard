@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PojoBotonera_sb" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5gm-Lv-acb">
+                                <rect key="frame" x="20" y="44" width="266" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Test" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRW-uh-2RZ">
+                                <rect key="frame" x="20" y="125" width="374" height="698"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZR-Zi-Hop">
+                                <rect key="frame" x="20" y="831" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="btnIzq_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I4b-fD-Tmh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoR-Kc-2V8">
+                                <rect key="frame" x="327" y="831" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="btnDer_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6d6-FZ-khk"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N3C-BF-RRN">
+                                <rect key="frame" x="294" y="44" width="100" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="suo-Ew-C9R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXr-8c-eng">
+                                <rect key="frame" x="310" y="86" width="84" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Conectar"/>
+                                <connections>
+                                    <action selector="btnConectar_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xb9-Nz-DDZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DZR-Zi-Hop" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="32Z-3D-Nft"/>
+                            <constraint firstItem="kRW-uh-2RZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="35v-gI-ls1"/>
+                            <constraint firstItem="N3C-BF-RRN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7oe-4C-szU"/>
+                            <constraint firstItem="kRW-uh-2RZ" firstAttribute="top" secondItem="mXr-8c-eng" secondAttribute="bottom" constant="8" symbolic="YES" id="HcZ-GG-MKO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N3C-BF-RRN" secondAttribute="trailing" constant="20" id="T04-5N-P0L"/>
+                            <constraint firstItem="5gm-Lv-acb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Uba-bN-pO4"/>
+                            <constraint firstItem="DZR-Zi-Hop" firstAttribute="top" secondItem="kRW-uh-2RZ" secondAttribute="bottom" constant="8" symbolic="YES" id="aiI-Tb-YdC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eoR-Kc-2V8" secondAttribute="trailing" constant="20" id="fXo-p0-2O7"/>
+                            <constraint firstItem="N3C-BF-RRN" firstAttribute="leading" secondItem="5gm-Lv-acb" secondAttribute="trailing" constant="8" id="gw3-ZC-o14"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kRW-uh-2RZ" secondAttribute="trailing" constant="20" id="hLo-xk-Vae"/>
+                            <constraint firstItem="eoR-Kc-2V8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kty-0x-hAR"/>
+                            <constraint firstItem="DZR-Zi-Hop" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lPj-F3-xWR"/>
+                            <constraint firstItem="mXr-8c-eng" firstAttribute="top" secondItem="N3C-BF-RRN" secondAttribute="bottom" constant="8" symbolic="YES" id="mqD-aI-nmS"/>
+                            <constraint firstItem="5gm-Lv-acb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vrN-ZS-W75"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mXr-8c-eng" secondAttribute="trailing" constant="20" id="zYv-59-B4m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnConectar" destination="mXr-8c-eng" id="Rag-Nf-PEJ"/>
+                        <outlet property="btnDer" destination="eoR-Kc-2V8" id="Hqt-JK-GZs"/>
+                        <outlet property="btnIzq" destination="DZR-Zi-Hop" id="Tbb-Pe-iHC"/>
+                        <outlet property="txtConsola" destination="kRW-uh-2RZ" id="kae-Oo-n4f"/>
+                        <outlet property="txtHost" destination="5gm-Lv-acb" id="sbv-7k-8C7"/>
+                        <outlet property="txtPort" destination="N3C-BF-RRN" id="7mf-YH-u92"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
